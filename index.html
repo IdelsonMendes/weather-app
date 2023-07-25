@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <main id="main" class="main">
+
+        <div id="container" class="container">
+            <div class="themes">
+                <button id="theme1" class="theme" onclick="changeTheme('theme1')"><img
+                        src="https://images.pexels.com/photos/2049422/pexels-photo-2049422.jpeg?auto=compress&cs=tinysrgb&w=1600"></button>
+                <button id="theme2" class="theme" onclick="changeTheme('theme2')"><img
+                        src="https://images.pexels.com/photos/2085998/pexels-photo-2085998.jpeg?auto=compress&cs=tinysrgb&w=1600"></button>
+                <button id="theme3" class="theme" onclick="changeTheme('theme3')"><img
+                        src="https://images.pexels.com/photos/1367192/pexels-photo-1367192.jpeg?auto=compress&cs=tinysrgb&w=1600"></button>
+                <button id="theme4" class="theme" onclick="changeTheme('theme4')"><img
+                        src="https://images.pexels.com/photos/1435075/pexels-photo-1435075.jpeg?auto=compress&cs=tinysrgb&w=1600"></button>
+            </div>
+            <div class="date-hour">
+                <p id="hour">15:18</p>
+                <p id="date">Segunda, 5 de Junho de 2023</p>
+            </div>
+            <div class="row">
+                <div class="weather-today">
+                    <img src="https://cdn-icons-png.flaticon.com/128/4064/4064276.png" alt="clima ensolarado"
+                        id="weather-today-icon">
+                    <p id="weather-today-tempearature">31°C</p>
+                </div>
+                <div class="location">
+                    <p id="location-city">São Paulo</p>
+                    <p id="location-country">Brazil</p>
+                </div>
+            </div>
+
+            <div id="bar" class="bar">
+
+                <div class="buttons">
+                    <button class="week">Seg</button>
+                    <button class="week">Ter</button>
+                    <button class="week">Qua</button>
+                    <button class="week">Qui</button>
+                    <button class="week">Sex</button>
+                    <button class="week">Sab</button>
+                    <button class="week">Dom</button>
+                </div>
+
+                <div id="weathers" class="weathers">
+                    <div class="weathers-temperature">
+                        <img id="seg-weather" src="https://cdn-icons-png.flaticon.com/128/4064/4064276.png"
+                            alt="clima ensolarado" class="weathers-icon">
+                        <p id="seg-weather-temperature" class="weathers-week-temperature">31°C</p>
+                    </div>
+                    <div class="weathers-temperature">
+                        <img id="ter-weather" src="https://cdn-icons-png.flaticon.com/128/1139/1139994.png"
+                            alt="clima nublado" class="weathers-icon">
+                        <p id="ter-weather-temperature" class="weathers-week-temperature">31°C</p>
+                    </div>
+                    <div class="weathers-temperature">
+                        <img id="qua-weather" src="https://cdn-icons-png.flaticon.com/128/3313/3313966.png"
+                            alt="clima chuvoso" class="weathers-icon">
+                        <p id="qua-weather-temperature" class="weathers-week-temperature">31°C</p>
+                    </div>
+                    <div class="weathers-temperature">
+                        <img id="qui-weather" src="https://cdn-icons-png.flaticon.com/128/5903/5903459.png"
+                            alt="clima de tempestade" class="weathers-icon">
+                        <p id="qui-weather-temperature" class="weathers-week-temperature">31°C</p>
+                    </div>
+                    <div class="weathers-temperature">
+                        <img id="sex-weather" src="https://cdn-icons-png.flaticon.com/128/2445/2445201.png"
+                            alt="granizo" class="weathers-icon">
+                        <p id="sex-weather-temperature" class="weathers-week-temperature">31°C</p>
+                    </div>
+                    <div class="weathers-temperature">
+                        <img id="sab-weather" src="https://cdn-icons-png.flaticon.com/128/4064/4064276.png"
+                            alt="clima ensolarado" class="weathers-icon">
+                        <p id="sab-weather-temperature" class="weathers-week-temperature">31°C</p>
+                    </div>
+                    <div class="weathers-temperature">
+                        <img id="dom-weather" src="https://cdn-icons-png.flaticon.com/128/1139/1139994.png"
+                            alt="clima nublado" class="weathers-icon">
+                        <p id="dom-weather-temperature" class="weathers-week-temperature">31°C</p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </main>
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>
