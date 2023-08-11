@@ -1,6 +1,8 @@
 # weather-app
 Aplicativo web simples em javascript que mostra a previsão do tempo da cidade de São Paulo
 
+Teste a aplicação: https://idelsonmendes.github.io/weather-app/index.html
+
 #
 
 Função - Exibir a previsão do tempo da cidade de São Paulo.
